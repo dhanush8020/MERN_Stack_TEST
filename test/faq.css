@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    border: 2px solid white;
+}
+
+#navbarNav ul li {
+    padding: 10px;
+}
+
+.navbar .navbar-brand .Logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar-nav .nav-item .btn {
+    margin-left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-section h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul li a i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}

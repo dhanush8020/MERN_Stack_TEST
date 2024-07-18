@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+table {
+    background-color: rgb(151, 143, 143);
+    color: rgb(31, 31, 29);
+    padding: 80px;
+    width: 240px;
+    font-size: large;
+}
+
+#email, #password {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+#submit {
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    margin-top: 20px;
+}
